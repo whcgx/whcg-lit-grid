@@ -1,0 +1,29 @@
+{
+  "name": "@whcg/whcg-lit-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whcgx/whcg-lit-grid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whcgx/whcg-lit-grid/issues"
+  },
+  "homepage": "https://github.com/whcgx/whcg-lit-grid#readme",
+  "dependencies": {
+    "@polymer/iron-ajax": "^3.0.0",
+    "@polymer/polymer": "^3.0.5",
+    "@vaadin/vaadin-grid": "^5.2.0-alpha2"
+  }
+}
